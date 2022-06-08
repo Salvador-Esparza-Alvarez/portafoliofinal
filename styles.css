@@ -1,0 +1,296 @@
+*{
+    background-color:#1f1d2c;
+    font-family: inter, sans-serif;
+    flex-wrap: wrap;
+}
+
+
+/* menu */
+nav {
+    text-align: right;
+    padding: 1rem 3rem;
+    background-color:#1f1d2c;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    background-color:transparent;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 0;
+    z-index: 999;
+    padding: 1rem;
+}
+
+nav ul li {
+    padding: 0.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+nav button {
+    border: 0;
+    background-color: transparent;
+}
+/* HOME */
+.imagen-1{
+    
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    margin-top:-15rem;
+    margin-right: 15rem;
+}
+
+.titulo-1{
+    font-size: 5rem;
+    color: white;
+    margin-left: 20rem;
+}
+.text-1{
+    width: 20%;
+    height: 20%;
+    color: white;
+    margin-left: 20rem;
+    font-size: 2rem;
+
+}
+.yellow{
+    color: #f1a600;
+    
+}
+.white{
+    color: white;
+}
+.img{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    margin-left:17rem ;
+    margin-top: 3rem;
+    justify-content: space-around;
+
+
+}
+/* segunda parte */
+.container{
+    background-color: rgb(209, 196, 196);
+    /* padding: auto; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.h3-1{
+    /* display: flex; */
+    color: #ffffff;
+/* justify-content: center; */
+    margin-top: 3rem;
+    margin-left:40rem;
+
+}
+.text-2{
+    color: #ffffff;
+    vertical-align: 10rem;
+    width: 50%;
+    height: 50%;
+    margin-left: 20rem;
+}
+.logo-academlo{
+    margin-left: 20rem;
+    
+
+}
+.logos{
+    display: inline-block;
+}
+.logo-uvm{
+    margin-left: 20rem;
+
+}
+.enlinea{
+
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+/* 2da parte */
+.parte-2{
+    display: flex;
+    flex-direction: column;
+   padding: 0;
+    width: 5%;
+    height: 5rem;
+    display: flex;
+    background-color: red;
+    /* display: flex; */
+    /* display: inline-block;
+    justify-content: center;*/
+} 
+.posicion{
+    display: flex;
+    flex-direction: column;
+}
+/* experincia */
+.text {
+    text-align: center;
+    padding: 10px;
+}
+
+.pad {
+    padding: 10px;
+}
+
+/* .size {
+    font-size: 50px;
+} */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* mis habilidades */
+.rectangulo-3{
+    background-color: rgb(111, 75, 134);
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width:30%;
+    margin-left: 5rem;
+    margin-top: -35rem;
+}
+.posicion-texto{
+    color: #ffffff;
+    text-align: center;
+
+}
+.margin{
+    display: inline-block;
+    margin-left: 15rem;
+}
+.tamaño{
+    font-size: 3rem;
+    background-color: transparent;
+}
+.size-text{
+    font-size: 1rem;
+}
+/* helpers */
+.transparente{
+    background-color: transparent;
+
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    width: 180px;
+    height:210px;
+}
+
+/* mi portafolio */
+.ecommerce{
+    color: #ffffff;
+    margin-left: 10rem;
+}
+.img-9{
+    /* display: flex; */
+    margin-top: 3rem;
+    margin-left: 5rem;
+
+}
+.mi-portafolio{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem
+}
+.img-10{
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+}
+/* contacto */
+.background{
+    background-color: rgb(111, 75, 134);
+    height: 20rem;
+    /* width: 100rem; */
+    /* padding: 0; */
+    /* margin:0; */
+}
+.posiciones{
+    margin-bottom: 5rem;
+    
+    /* display: inline-block; */
+
+
+}
+.contact-icon {
+    background-color: #F9F5F2;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+.contact-info {
+        text-align: center;
+        margin: 0 7%;
+    }
+ .h-contacto{
+    color: #ffffff;
+    /* justify-content: center; */
+        margin-top: 3rem;
+        margin-left:45rem;
+    }
+    
+
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+    #ul-nav li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    #ul-nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    nav button{
+        display: none;
+    }
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+    #ul-nav li {
+        margin-left: 3rem;
+    }
+} */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */

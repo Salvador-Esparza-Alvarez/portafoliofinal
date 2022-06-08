@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    #ul-nav li {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    #ul-nav {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    nav button{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #ul-nav li {
+        margin-left: 3rem;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+@media-sm-img(min-width: 768px){
+
+
+}
